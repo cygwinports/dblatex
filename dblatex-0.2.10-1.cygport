@@ -1,0 +1,5 @@
+inherit distutils
+
+DESCRIPTION="Converts DocBook SGML/XML to DVI/PostScript/PDF"
+HOMEPAGE="http://dblatex.sourceforge.net/"
+SRC_URI="mirror://sourceforge/dblatex/${P}.tar.bz2"
