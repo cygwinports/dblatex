@@ -1,5 +1,5 @@
 category: Text
-requires: ImageMagick libxslt python tetex transfig
+requires: ImageMagick libxslt python tetex-bin transfig
 sdesc: "Converts DocBook SGML/XML to DVI/PS/PDF"
 ldesc: "dblatex is a program that transforms your SGML/XML DocBook 
 documents to DVI, PostScript or PDF by translating them into pure LaTeX 

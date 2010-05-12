@@ -7,14 +7,14 @@ of DB2LaTeX.
 
 Runtime requirements:
   ImageMagick-6.4.0.6-1
-  libxslt-1.1.24-10
-  python-2.5.4-10
-  tetex-3.0.0-3
+  libxslt-1.1.26-1
+  python-2.6.5-1
+  tetex-bin-3.0.0-3
   transfig-3.2.5-1
 
 Build requirements:
-  cygport-0.9.10-1
-  python-2.5.4-10
+  cygport-0.9.93-1
+  python-2.6.5-1
 
 Canonical website:
   http://dblatex.sourceforge.net/
@@ -25,15 +25,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack dblatex-0.2.10-X-src.tar.bz2
+  unpack dblatex-0.3-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./dblatex-0.2.10-X.cygport all
+  cygport ./dblatex-0.3-X.cygport all
 
 This will create:
-  /usr/src/dblatex-0.2.10-X-src.tar.bz2
-  /usr/src/dblatex-0.2.10-X.tar.bz2
+  /usr/src/dblatex-0.3-X-src.tar.bz2
+  /usr/src/dblatex-0.3-X.tar.bz2
 
 For a list of files included in the binary package, run from the 
 command-line: 'cygcheck -l dblatex'.
@@ -41,6 +41,9 @@ command-line: 'cygcheck -l dblatex'.
 -------------------------------------------
 
 Port Notes:
+
+----- version 0.3-1 -----
+Version bump, built for Python 2.6.
 
 ----- version 0.2.10-1 -----
 Initial release for Cygwin 1.7.
