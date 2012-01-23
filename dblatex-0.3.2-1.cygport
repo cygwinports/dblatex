@@ -3,3 +3,4 @@ inherit distutils
 DESCRIPTION="Converts DocBook SGML/XML to DVI/PostScript/PDF"
 HOMEPAGE="http://dblatex.sourceforge.net/"
 SRC_URI="mirror://sourceforge/dblatex/${P}.tar.bz2"
+PATCH_URI="0.3.2-texlive-2011.patch"
