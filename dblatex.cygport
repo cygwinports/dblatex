@@ -1,7 +1,7 @@
 inherit distutils
 
 NAME="dblatex"
-VERSION=0.3.4
+VERSION=0.3.7
 RELEASE=1
 CATEGORY="Text"
 SUMMARY="Converts DocBook SGML/XML to DVI/PS/PDF"
@@ -9,8 +9,9 @@ DESCRIPTION="dblatex is a program that transforms your SGML/XML DocBook
 documents to DVI, PostScript or PDF by translating them into pure LaTeX
 as a first process.  MathML 2.0 markups are supported, too."
 HOMEPAGE="http://dblatex.sourceforge.net/"
-SRC_URI="mirror://sourceforge/dblatex/${P}.tar.bz2"
-PATCH_URI="0.3.2-texlive-2011.patch
-           0.3.4-debian.patch"
+SRC_URI="mirror://sourceforge/dblatex/dblatex-${VERSION}.tar.bz2"
+#PATCH_URI="0.3.4-debian.patch"
+
+ARCH=noarch
 
 dblatex_REQUIRES="ghostscript ImageMagick libxslt texlive texlive-collection-bibtexextra texlive-collection-binextra texlive-collection-latexextra texlive-collection-mathextra transfig"
